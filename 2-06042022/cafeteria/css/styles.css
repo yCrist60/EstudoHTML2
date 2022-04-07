@@ -23,7 +23,7 @@ header {
   /*Aplicar imagem de fundo ao cabeçalho*/
   background-image: url("../img/cafeteria2.jpg");
   /*Ajustar o tamanho da imagem de fundo*/
-  background size: 100% cover;
+  background size: 150%;
   /*alterar a posição vertical da imagem*/
   background-position-y: -400px;
   padding-top: 200px;
@@ -32,14 +32,14 @@ header {
 
 h1{
    font-family: Verdana;
-   font-size: 30pt;
-   color: white
+   font-size: 50pt;
+   color: black;
    /*Vamos aplicar uam sombra*/
    /*Primeiro elemento é a posição horizontal da sombra;
    /*Segundo elemento é posicão vertical sa sombra;
    /*Terceiro elemento é efeito esfumaçado da sombra;
    /*Quarto elemnteo é a cor. */
-   text-shadow 2px 2px 5px black;
+   text-shadow: 5xp 5xp 10xp black;
 }
 
 
@@ -55,4 +55,57 @@ nav ul li{
     display: inline-block;
     /*espaço entre os links*/
     margin: 5px;
+}
+nav ul li a {
+  color: white;
+  font-family: arial;
+  /*tirar o sublinhado*/
+  text-decoration: none;
+}
+
+main {
+  padding 20px;
+}
+footer {
+  background-color: tomato;
+  /*Permitir com que o rodapé fique com seu
+  conteúdo flexível*/
+  display: flex;
+  /*Dispor o conteúdo em linha*/
+  flex-direction: row;
+  /*Ajustar o conteúdo ao centro com Justify-content e ALign-Itens */
+  justify-content: center;
+  align-items: center ;
+  height: 200px;
+}
+footer div{
+  border: 1px solid black;
+  margin: 10px;
+}
+
+#endereco{
+  font-family: arial;
+  font-size: 12pt;
+  color: greenyellow;
+  width: 300px;
+  text-align: center;
+}
+#redes{
+  position: absolute;
+  right: 50px;
+}
+#redes ul{
+  /* Retirar as bolinahs de marcação*/
+  list-style: none;
+}
+
+/*vamos dispor a imagens das redes
+em linha com display inline-bloack*/
+#redes ul li{
+  display: inline-block;
+  margin: 20px;
+}
+#redes ul li a img {
+  width: 40px;
+  height: 40px;
 }
