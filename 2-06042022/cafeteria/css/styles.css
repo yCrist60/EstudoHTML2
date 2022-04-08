@@ -190,3 +190,75 @@ dentro da caixa imghistoria */
 }
 
 /*============= fim dapágian história ==========*/
+
+
+/*============ Inicio da página cardápio ========== */
+h3 {
+  /*Coverter as letras para maículas */
+  text-transform: uppercase; /*Uppercasa->Letras maiúsculas*/
+  font-size: 20pt;
+  font-family: Verdana;
+  color: brown;
+  margin: 30px;
+}
+
+#linha {
+  display: flex;
+  flex-direction: row;
+  /*realizar a quebra de linhas para os demais
+  produtos que forem adicionados*/
+  flex-wrap: wrap;
+  justify-content: center;
+  /*align-items: center;*/  
+}
+
+#linha #produto {
+  width: 40%;
+  margin: 10px; 
+  /*Determinar que o conteúdo do produto será
+  flexível*/
+  display: flex;
+  flex-direction: row;
+}
+
+#linha #produto #imgprod,#linha #produto #descricao{
+  width: 48%;
+  margin-bottom: 10px;
+  transition: ease 0.5;;
+  /* caixas*/
+}
+
+
+
+#linha #produto #imgprod img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  /*Imagens*/
+  
+}
+
+h4 {
+  font-family: Verdana;
+  font-size: 10pt;
+  margin: 20px;
+}
+h5 {
+  font-family: "lucida Sans";
+  font-weight: lighter; /*Retirar o negrito*/;
+  font-size: 10pt;
+  margin: 20px;
+}
+h6 {
+  font-family: "Lucida Sans";
+  color: darkred;
+  font-size: 10pt ;
+  margin: 10px;
+}
+
+#linha  #produto:hover {
+  background-color: black;
+  color: tomato;
+  cursor: pointer;
+}
+/* ========== Fim da página cardápio ============ */
