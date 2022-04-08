@@ -9,7 +9,7 @@ html usando o *(asteristico) e aplicar margem externa e interna
 zero(0) e realizar o ajuste das caixas em html 
  */
 
-* {
+ * {
   margin: 0px; /*Margem externa das caixas */
   padding: 0px; /*margem inerna das caixas */
   /*Ajuste de padding das caixas sem a soma com a
@@ -156,3 +156,37 @@ main p{
 }
 
 /*==================== fim home ================== */
+
+/*=========inicio dos estilos da página de históri=============*/
+
+#imghistoria {
+   /*Centralizar o conteúdo desta div */
+   text-align: center;
+   /*Alterar a largura das caixas com img */
+   width: 90%;
+   /*Centralizar a div qu contém as imagens */
+   margin-left: auto;
+   margin-right: auto;
+}
+/*Vamos formatar o tamanho das imagens que estão
+dentro da caixa imghistoria */
+#imghistoria img {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+
+}
+#videohistoria {
+  width: 80%;
+  margin-left: auto;
+  margin-left: auto;
+}
+
+#videohistoria iframe {
+  width: 80%;
+  height: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*============= fim dapágian história ==========*/
