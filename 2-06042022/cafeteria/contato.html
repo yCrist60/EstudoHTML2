@@ -21,7 +21,35 @@
             <li><a href="localizacao.html">localização</a></li>
         </ul>
     </nav> 
-    <main></main>
+    <main>
+        <h2>Fala Conosco</h2>
+        <form>
+            <!-- A caixa abaixo é do tipo texto,pois será digitado o nome do CLiente -->
+            <input type="text" placeholder="Nome Completo">
+            
+            <!-- A caixa abaixo será formatada com o tipo email
+            isso permite a configuração do tipo email e a válidação também -->
+            <input type="text" placeholder="E-mail">
+
+            <!-- A caixa abaixo será do tipo tel(telefone) -->
+            <input type="text" placeholder="Telefone" maxlength="11">
+
+            <select>
+                <option value="Seleciona"> Selecione</option>
+                <option value="sugestão"> Sugestão</option>
+                <option value="Crítica"> Crítica</option>
+                <option value="Elogio"> Elogio</option>
+                <option value="Dúvida"> Dúvida</option>
+            </select>
+            
+            <textarea>
+            </textarea>
+
+            <!-- O elemento abaixo será do tipo submit(Submeter), ou seja,
+            um botão pra enviar dos dados do formulário -->
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
     <footer>
         <div id="endereco">
             Rua Pedro mariano Oliveria, 10<br>
