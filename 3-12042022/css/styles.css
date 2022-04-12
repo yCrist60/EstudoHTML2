@@ -1,0 +1,70 @@
+/*Classe para alterar a cor do plano de fundo */
+.bgRed {
+  background-color: rgb(94, 2, 2);
+}
+.bgYellow {
+  background-color: rgb(156, 156, 30);
+}
+.bgBlack {
+  background-color: black;
+}
+/*Classes para cor do texto */
+.txtRed {
+  color: rgb(121, 5, 5);
+}
+.txtWhite {
+  color: white;
+}
+.txtYellow {
+  color: rgba(255, 255, 0, 0.534);
+}
+.txtBlack {
+  columns: black;
+}
+.titulo1 {
+  font-family: verdana;
+  font-size: 25pt;
+  font-weight: bold;
+}
+.titulo2 {
+  font-family: verdana;
+  font-size: 18pt;
+  font-weight: bold;
+}
+/*Calsse para formatar blocos de textos*/
+.txt1 {
+  font-family: arial;
+  font-size: 12pt;
+  line-height: 25px;
+  text-align: justify;
+}
+.txt2 {
+  font-family: arial;
+  font-size: 10pt;
+  line-height: 25px;
+  text-align: justify;
+}
+/* Classe para imagens*/
+.img100 {
+  width: 100%;
+  height: auto;
+}
+.img80 {
+  width: 80%;
+  height: auto;
+}
+.img60 {
+  width: 60%;
+  height: auto;
+}
+.img50 {
+  width: 50%;
+  height: auto;
+}
+.anima {
+  transition: 0.5s;
+}
+.anima:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
