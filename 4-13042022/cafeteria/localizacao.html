@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Cafeteria,CAfé,Bolinho">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Cafeteria Print</title>
+</head>
+<body>
+    
+    <header>
+        <a id="abrir" href="#" onclick="abrir()">&#9776;</a> 
+        <h1>cafeteria Print</h1>
+    </header> 
+    <nav>
+        <a id= "fechar" href="#" onclick="fechar()">&times;</a>
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="historia.html">história</a></li>
+            <li><a href="cardapio.html">cardapio</a></li>
+            <li><a href="contato.html">contato</a></li>
+            <li><a href="localizacao.html">localização</a></li>
+        </ul>
+    </nav> 
+    <main>
+        <h2>Onde estamos</h2>
+        <div id="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233881.20504071508!2d-46.79299608976804!3d-23.661870149943365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5857eeaa9f43%3A0x523d6a1fa220d11b!2sCafeteria%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1649428468958!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+    <footer>
+        <div id="endereco">
+            Rua Pedro mariano Oliveria, 10<br>
+            são paulo - SP - cep 03300-00 <br>
+            telefone: (11)4002-0002       <br>
+        </div>
+        <div id="redes">
+            <ul>
+                <li><a href="http://facebook.com" target="_blank"><img src="img/facebook.png" alt="Acesse  nosso FaceBook"></a></li>
+                <li><a href="http://youtube.com" target="_blank"><img src="img/youtube.png" alt="Acesse o YouTube"></a></li>
+                <li><a href="http://twitter.com" target="_blank" ><img src="img/twitter.png" alt="Acesse o Twitter"></a></li>
+            </ul>
+        </div>
+    </footer>
+     
+    <script>
+        function abrir(){
+            document.getElementsByTagName("nav")[0].style.left="0px"
+        }
+
+        function fechar(){
+            document.getElementsByTagName("nav")[0].style.left="-200px"
+        }
+    </script>
+    
+    
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Cafeteria,CAfé,Bolinho">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Cafeteria Cristian</title>
+</head>
+<body>
+    
+    <header>
+        <a id="abrir" href="#" onclick="abrir()">&#9776;</a>
+        <h1>cafeteria Cristian</h1>
+    </header> 
+    <nav>
+        <a id= "fechar" href="#" onclick="fechar()">&times;</a>
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="historia.html">história</a></li>
+            <li><a href="cardapio.html">cardapio</a></li>
+            <li><a href="contato.html">contato</a></li>
+            <li><a href="localizacao.html">localização</a></li>
+        </ul>
+    </nav> 
+    <main>
+        <h2>Fala Conosco</h2>
+        <form>
+            <!-- A caixa abaixo é do tipo texto,pois será digitado o nome do CLiente -->
+            <input type="text" placeholder="Nome Completo">
+            
+            <!-- A caixa abaixo será formatada com o tipo email
+            isso permite a configuração do tipo email e a válidação também -->
+            <input type="text" placeholder="E-mail">
+
+            <!-- A caixa abaixo será do tipo tel(telefone) -->
+            <input type="text" placeholder="Telefone" maxlength="11">
+
+            <select>
+                <option value="Seleciona"> Selecione</option>
+                <option value="sugestão"> Sugestão</option>
+                <option value="Crítica"> Crítica</option>
+                <option value="Elogio"> Elogio</option>
+                <option value="Dúvida"> Dúvida</option>
+            </select>
+            
+            <textarea>
+            </textarea>
+
+            <!-- O elemento abaixo será do tipo submit(Submeter), ou seja,
+            um botão pra enviar dos dados do formulário -->
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer>
+        <div id="endereco">
+            Rua Pedro mariano Oliveria, 10<br>
+            são paulo - SP - cep 03300-00 <br>
+            telefone: (11)4002-0002       <br>
+        </div>
+        <div id="redes">
+            <ul>
+                <li><a href="http://facebook.com" target="_blank"><img src="img/facebook.png" alt="Acesse  nosso FaceBook"></a></li>
+                <li><a href="http://youtube.com" target="_blank"><img src="img/youtube.png" alt="Acesse o YouTube"></a></li>
+                <li><a href="http://twitter.com" target="_blank" ><img src="img/twitter.png" alt="Acesse o Twitter"></a></li>
+            </ul>
+        </div>
+    </footer>
+     
+    <script>
+        function abrir(){
+            document.getElementsByTagName("nav")[0].style.left="0px"
+        }
+
+        function fechar(){
+            document.getElementsByTagName("nav")[0].style.left="-200px"
+        }
+    </script>
+
+</body>
+</html>

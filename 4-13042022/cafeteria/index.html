@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Cafeteria,CAfé,Bolinho">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Cafeteria Cristian</title>
+</head>
+<body>
+    <header>
+        <a id="abrir" href="#" onclick="abrir()">&#9776;</a>
+        
+        <h1>Cafeteria Cristian</h1>
+    </header> 
+    <nav>
+        <a id= "fechar" href="#" onclick="fechar()">&times;</a>
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="historia.html">história</a></li>
+            <li><a href="cardapio.html">cardapio</a></li>
+            <li><a href="contato.html">contato</a></li>
+            <li><a href="localizacao.html">localização</a></li>
+        </ul>
+    </nav> 
+    <main>
+        <h2>Seja bem vindo à nossa cafeteria</h2>
+        
+        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptate odio, totam porro voluptates suscipit, sunt sequi, explicabo minus praesentium consequuntur? Eos ipsum qui consequatur ullam nostrum quaerat iure quia.</span><span>Quaerat earum sit rerum ducimus obcaecati ipsum natus consequuntur corrupti repellat repellendus deserunt repudiandae ut necessitatibus nostrum, tenetur ab aliquid iste vel inventore amet. Ullam ipsum vel mollitia porro eaque.</span><span>Ab, aperiam ad? Necessitatibus nemo qui voluptas unde iusto ratione recusandae minima aliquid illo perspiciatis sunt, eligendi ut omnis et cum facere deserunt laudantium aperiam nulla esse dignissimos blanditiis nesciunt.</span></p>
+        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis similique nulla atque qui commodi in, sint deleniti tempore hic delectus ex perspiciatis magnam fugiat, porro ducimus culpa, sed quasi quibusdam?</span><span>Nisi dolorum, facere repudiandae, voluptatem accusamus quasi obcaecati at doloremque, necessitatibus assumenda explicabo quia? Accusamus porro at ex quisquam repudiandae optio ipsam perspiciatis, consequatur amet, aut corporis adipisci veniam aliquam!</span><span>Maxime doloremque eum illo eius, adipisci laborum, pariatur vero facere accusamus magnam corporis ex nesciunt, distinctio sunt delectus alias eligendi officiis excepturi rem velit facilis unde nisi illum dolore? Natus.</span></p>
+        
+        
+        
+        <div id="imghome"> 
+            <img src="img/bebida.jpg" alt="bebida">
+            <img src="img/suco1.jpg" alt="suco">
+        </div>
+    </main>
+    <footer>
+        <div id="endereco">
+            Rua Pedro mariano Oliveria, 10<br>
+            são paulo - SP - cep 03300-00 <br>
+            telefone: (11)4002-0002       <br>
+        </div>
+        <div id="redes">
+            <ul>
+                <li><a href="http://facebook.com" target="_blank"><img src="img/facebook.png" alt="Acesse  nosso FaceBook"></a></li>
+                <li><a href="http://youtube.com" target="_blank"><img src="img/youtube.png" alt="Acesse o YouTube"></a></li>
+                <li><a href="http://twitter.com" target="_blank" ><img src="img/twitter.png" alt="Acesse o Twitter"></a></li>
+            </ul>
+        </div>
+    </footer>
+     
+    <script>
+        function abrir(){
+            document.getElementsByTagName("nav")[0].style.left="0px"
+        }
+
+        function fechar(){
+            document.getElementsByTagName("nav")[0].style.left="-200px"
+        }
+    </script>
+    
+</body>
+</html>
