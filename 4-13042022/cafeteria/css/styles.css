@@ -403,7 +403,7 @@ nav ul li{
     padding: 10px;
   }
 
-  #footer #redes {
+   footer #redes {
     position: relative;
     right: auto;
   }
@@ -413,7 +413,7 @@ nav ul li{
   }
   #imghistoria img{
     width: 90%;
-    height: 100%;
+    height: auto;
   }
 
   /*Completar esta parte*/
@@ -423,13 +423,14 @@ nav ul li{
   }
   #linha #produto {
     width: 100%;
-    flex-direction: collum;
+    flex-direction: column;
   }
   #linha #produto #imgprod,#linha #produto #descricao{
     width: 90%;
     margin-bottom: 10px;
     transition: ease 0.5s;
   } 
-  
-
+  main form {
+    width: 90%;
+  }
 }
